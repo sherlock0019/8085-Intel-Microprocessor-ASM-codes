@@ -1,0 +1,13 @@
+# ORG 7000H
+	   LXI H,7501
+	   MVI C,0A
+	   LXI D,7601
+	   MOV A,M
+	   STAX D
+	   INX H
+	   INX D
+	   DCR C
+	   JNZ 7008
+	   HLT
+# ORG 7501H
+# DB 01,02,03,04,05,06,07,08,09,10

@@ -1,0 +1,8 @@
+# ORG 7000H
+	   LXI D,0004
+	   MVI A,03
+
+LOOP:	   DAD D
+	   DCR A
+	   JNZ LOOP
+	   HLT
