@@ -1,0 +1,1361 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  l_BSEG_BYTES                    
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000002  l_BSEG                          
+C:   00000002  l_OSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   0000000F  l_GSINIT                        
+C:   00000010  l_CONST                         
+C:   00000010  s_REG_BANK_2                    
+C:   00000015  s_OSEG                          
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000021  s_SSEG                          
+C:   00000022  l_GSINIT3                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000002A  l_GSINIT4                       
+C:   00000051  l_HOME                          
+C:   00000051  s_GSINIT0                       
+C:   00000054  s_GSINIT1                       
+C:   00000054  s_GSINIT2                       
+C:   0000005E  s_GSINIT3                       
+C:   0000005F  l_SSEG                          
+C:   00000077  l_DSEG                          
+C:   00000080  l_IRAM                          
+C:   00000080  s_GSINIT4                       
+C:   000000AA  s_GSINIT                        
+C:   000000AA  s_GSINIT5                       
+C:   000000B9  s_GSFINAL                       
+C:   000000BC  s_CSEG                          
+C:   000006D5  l_CSEG                          
+C:   00000791  s_CONST                         
+C:   000007A1  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _fsrshift
+     00000080  G$P0$0$0                           temperature
+     00000080  G$P0_0$0$0                         temperature
+     00000080  _P0                                temperature
+     00000080  _P0_0                              temperature
+     00000081  G$P0_1$0$0                         temperature
+     00000081  G$SP$0$0                           temperature
+     00000081  _P0_1                              temperature
+     00000081  _SP                                temperature
+     00000082  G$DPL$0$0                          temperature
+     00000082  G$P0_2$0$0                         temperature
+     00000082  _DPL                               temperature
+     00000082  _P0_2                              temperature
+     00000083  G$DPH$0$0                          temperature
+     00000083  G$P0_3$0$0                         temperature
+     00000083  _DPH                               temperature
+     00000083  _P0_3                              temperature
+     00000084  G$P0_4$0$0                         temperature
+     00000084  _P0_4                              temperature
+     00000085  G$P0_5$0$0                         temperature
+     00000085  _P0_5                              temperature
+     00000086  G$P0_6$0$0                         temperature
+     00000086  _P0_6                              temperature
+     00000087  G$P0_7$0$0                         temperature
+     00000087  G$PCON$0$0                         temperature
+     00000087  _P0_7                              temperature
+     00000087  _PCON                              temperature
+     00000088  G$IT0$0$0                          temperature
+     00000088  G$TCON$0$0                         temperature
+     00000088  _IT0                               temperature
+     00000088  _TCON                              temperature
+     00000089  G$IE0$0$0                          temperature
+     00000089  G$TMOD$0$0                         temperature
+     00000089  _IE0                               temperature
+     00000089  _TMOD                              temperature
+     0000008A  G$IT1$0$0                          temperature
+     0000008A  G$TL0$0$0                          temperature
+     0000008A  _IT1                               temperature
+     0000008A  _TL0                               temperature
+     0000008B  G$IE1$0$0                          temperature
+     0000008B  G$TL1$0$0                          temperature
+     0000008B  _IE1                               temperature
+     0000008B  _TL1                               temperature
+     0000008C  G$TH0$0$0                          temperature
+     0000008C  G$TR0$0$0                          temperature
+     0000008C  _TH0                               temperature
+     0000008C  _TR0                               temperature
+     0000008D  G$TF0$0$0                          temperature
+     0000008D  G$TH1$0$0                          temperature
+     0000008D  _TF0                               temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008D  _TH1                               temperature
+     0000008E  G$AUXR$0$0                         temperature
+     0000008E  G$TR1$0$0                          temperature
+     0000008E  _AUXR                              temperature
+     0000008E  _TR1                               temperature
+     0000008F  G$CKCON0$0$0                       temperature
+     0000008F  G$TF1$0$0                          temperature
+     0000008F  _CKCON0                            temperature
+     0000008F  _TF1                               temperature
+     00000090  G$P1$0$0                           temperature
+     00000090  G$P1_0$0$0                         temperature
+     00000090  _P1                                temperature
+     00000090  _P1_0                              temperature
+     00000091  G$P1_1$0$0                         temperature
+     00000091  _P1_1                              temperature
+     00000092  G$P1_2$0$0                         temperature
+     00000092  _P1_2                              temperature
+     00000093  G$P1_3$0$0                         temperature
+     00000093  G$SSCON$0$0                        temperature
+     00000093  _P1_3                              temperature
+     00000093  _SSCON                             temperature
+     00000094  G$P1_4$0$0                         temperature
+     00000094  G$SSCS$0$0                         temperature
+     00000094  _P1_4                              temperature
+     00000094  _SSCS                              temperature
+     00000095  G$P1_5$0$0                         temperature
+     00000095  G$SSDAT$0$0                        temperature
+     00000095  _P1_5                              temperature
+     00000095  _SSDAT                             temperature
+     00000096  G$P1_6$0$0                         temperature
+     00000096  G$SSADR$0$0                        temperature
+     00000096  _P1_6                              temperature
+     00000096  _SSADR                             temperature
+     00000097  G$P1_7$0$0                         temperature
+     00000097  _P1_7                              temperature
+     00000098  G$RI$0$0                           temperature
+     00000098  G$SCON$0$0                         temperature
+     00000098  _RI                                temperature
+     00000098  _SCON                              temperature
+     00000099  G$SBUF$0$0                         temperature
+     00000099  G$TI$0$0                           temperature
+     00000099  _SBUF                              temperature
+     00000099  _TI                                temperature
+     0000009A  G$BRL$0$0                          temperature
+     0000009A  G$RB8$0$0                          temperature
+     0000009A  _BRL                               temperature
+     0000009A  _RB8                               temperature
+     0000009B  G$BDRCON$0$0                       temperature
+     0000009B  G$TB8$0$0                          temperature
+     0000009B  _BDRCON                            temperature
+     0000009B  _TB8                               temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009C  G$KBLS$0$0                         temperature
+     0000009C  G$REN$0$0                          temperature
+     0000009C  _KBLS                              temperature
+     0000009C  _REN                               temperature
+     0000009D  G$KBE$0$0                          temperature
+     0000009D  G$SM2$0$0                          temperature
+     0000009D  _KBE                               temperature
+     0000009D  _SM2                               temperature
+     0000009E  G$KBF$0$0                          temperature
+     0000009E  G$SM1$0$0                          temperature
+     0000009E  _KBF                               temperature
+     0000009E  _SM1                               temperature
+     0000009F  G$FE$0$0                           temperature
+     0000009F  G$SM0$0$0                          temperature
+     0000009F  _FE                                temperature
+     0000009F  _SM0                               temperature
+     000000A0  G$P2$0$0                           temperature
+     000000A0  G$P2_0$0$0                         temperature
+     000000A0  _P2                                temperature
+     000000A0  _P2_0                              temperature
+     000000A0  __XPAGE                            
+     000000A1  G$P2_1$0$0                         temperature
+     000000A1  _P2_1                              temperature
+     000000A2  G$AUXR1$0$0                        temperature
+     000000A2  G$P2_2$0$0                         temperature
+     000000A2  _AUXR1                             temperature
+     000000A2  _P2_2                              temperature
+     000000A3  G$P2_3$0$0                         temperature
+     000000A3  G$PLLCON$0$0                       temperature
+     000000A3  _P2_3                              temperature
+     000000A3  _PLLCON                            temperature
+     000000A4  G$P2_4$0$0                         temperature
+     000000A4  G$PLLDIV$0$0                       temperature
+     000000A4  _P2_4                              temperature
+     000000A4  _PLLDIV                            temperature
+     000000A5  G$P2_5$0$0                         temperature
+     000000A5  _P2_5                              temperature
+     000000A6  G$P2_6$0$0                         temperature
+     000000A6  G$WDTRST$0$0                       temperature
+     000000A6  _P2_6                              temperature
+     000000A6  _WDTRST                            temperature
+     000000A7  G$P2_7$0$0                         temperature
+     000000A7  G$WDTPRG$0$0                       temperature
+     000000A7  _P2_7                              temperature
+     000000A7  _WDTPRG                            temperature
+     000000A8  G$EX0$0$0                          temperature
+     000000A8  G$IE$0$0                           temperature
+     000000A8  G$IEN0$0$0                         temperature
+     000000A8  _EX0                               temperature
+     000000A8  _IE                                temperature
+     000000A8  _IEN0                              temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000A9  G$ET0$0$0                          temperature
+     000000A9  G$SADDR$0$0                        temperature
+     000000A9  _ET0                               temperature
+     000000A9  _SADDR                             temperature
+     000000AA  G$EX1$0$0                          temperature
+     000000AA  _EX1                               temperature
+     000000AB  G$ET1$0$0                          temperature
+     000000AB  _ET1                               temperature
+     000000AC  G$ES$0$0                           temperature
+     000000AC  _ES                                temperature
+     000000AD  G$ET2$0$0                          temperature
+     000000AD  _ET2                               temperature
+     000000AE  G$EC$0$0                           temperature
+     000000AE  _EC                                temperature
+     000000AF  G$CKCON1$0$0                       temperature
+     000000AF  G$EA$0$0                           temperature
+     000000AF  _CKCON1                            temperature
+     000000AF  _EA                                temperature
+     000000B0  G$P3$0$0                           temperature
+     000000B0  G$P3_0$0$0                         temperature
+     000000B0  _P3                                temperature
+     000000B0  _P3_0                              temperature
+     000000B1  G$IEN1$0$0                         temperature
+     000000B1  G$P3_1$0$0                         temperature
+     000000B1  _IEN1                              temperature
+     000000B1  _P3_1                              temperature
+     000000B2  G$IPL1$0$0                         temperature
+     000000B2  G$P3_2$0$0                         temperature
+     000000B2  _IPL1                              temperature
+     000000B2  _P3_2                              temperature
+     000000B3  G$IPH1$0$0                         temperature
+     000000B3  G$P3_3$0$0                         temperature
+     000000B3  _IPH1                              temperature
+     000000B3  _P3_3                              temperature
+     000000B4  G$P3_4$0$0                         temperature
+     000000B4  _P3_4                              temperature
+     000000B5  G$P3_5$0$0                         temperature
+     000000B5  _P3_5                              temperature
+     000000B6  G$P3_6$0$0                         temperature
+     000000B6  _P3_6                              temperature
+     000000B7  G$IPH0$0$0                         temperature
+     000000B7  G$P3_7$0$0                         temperature
+     000000B7  _IPH0                              temperature
+     000000B7  _P3_7                              temperature
+     000000B8  G$IPL0$0$0                         temperature
+     000000B8  G$PX0L$0$0                         temperature
+     000000B8  _IPL0                              temperature
+     000000B8  _PX0L                              temperature
+     000000B9  G$PT0L$0$0                         temperature
+     000000B9  G$SADEN$0$0                        temperature
+     000000B9  _PT0L                              temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B9  _SADEN                             temperature
+     000000BA  G$PX1L$0$0                         temperature
+     000000BA  G$UFNUML$0$0                       temperature
+     000000BA  _PX1L                              temperature
+     000000BA  _UFNUML                            temperature
+     000000BB  G$PT1L$0$0                         temperature
+     000000BB  G$UFNUMH$0$0                       temperature
+     000000BB  _PT1L                              temperature
+     000000BB  _UFNUMH                            temperature
+     000000BC  G$PSL$0$0                          temperature
+     000000BC  G$USBCON$0$0                       temperature
+     000000BC  _PSL                               temperature
+     000000BC  _USBCON                            temperature
+     000000BD  G$PT2L$0$0                         temperature
+     000000BD  G$USBINT$0$0                       temperature
+     000000BD  _PT2L                              temperature
+     000000BD  _USBINT                            temperature
+     000000BE  G$PPCL$0$0                         temperature
+     000000BE  G$USBIEN$0$0                       temperature
+     000000BE  _PPCL                              temperature
+     000000BE  _USBIEN                            temperature
+     000000C0  G$P4$0$0                           temperature
+     000000C0  G$P4_0$0$0                         temperature
+     000000C0  _P4                                temperature
+     000000C0  _P4_0                              temperature
+     000000C1  G$P4_1$0$0                         temperature
+     000000C1  _P4_1                              temperature
+     000000C2  G$UEPIEN$0$0                       temperature
+     000000C2  _UEPIEN                            temperature
+     000000C3  G$SPCON$0$0                        temperature
+     000000C3  _SPCON                             temperature
+     000000C4  G$SPSTA$0$0                        temperature
+     000000C4  _SPSTA                             temperature
+     000000C5  G$SPDAT$0$0                        temperature
+     000000C5  _SPDAT                             temperature
+     000000C6  G$USBADDR$0$0                      temperature
+     000000C6  _USBADDR                           temperature
+     000000C7  G$UEPNUM$0$0                       temperature
+     000000C7  _UEPNUM                            temperature
+     000000C8  G$CP_RL2$0$0                       temperature
+     000000C8  G$T2CON$0$0                        temperature
+     000000C8  _CP_RL2                            temperature
+     000000C8  _T2CON                             temperature
+     000000C9  G$C_T2$0$0                         temperature
+     000000C9  G$T2MOD$0$0                        temperature
+     000000C9  _C_T2                              temperature
+     000000C9  _T2MOD                             temperature
+     000000CA  G$RCAP2L$0$0                       temperature
+     000000CA  G$TR2$0$0                          temperature
+     000000CA  _RCAP2L                            temperature
+     000000CA  _TR2                               temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CB  G$EXEN2$0$0                        temperature
+     000000CB  G$RCAP2H$0$0                       temperature
+     000000CB  _EXEN2                             temperature
+     000000CB  _RCAP2H                            temperature
+     000000CC  G$TCLK$0$0                         temperature
+     000000CC  G$TL2$0$0                          temperature
+     000000CC  _TCLK                              temperature
+     000000CC  _TL2                               temperature
+     000000CD  G$RCLK$0$0                         temperature
+     000000CD  G$TH2$0$0                          temperature
+     000000CD  _RCLK                              temperature
+     000000CD  _TH2                               temperature
+     000000CE  G$EXF2$0$0                         temperature
+     000000CE  G$UEPSTAX$0$0                      temperature
+     000000CE  _EXF2                              temperature
+     000000CE  _UEPSTAX                           temperature
+     000000CF  G$TF2$0$0                          temperature
+     000000CF  G$UEPDATX$0$0                      temperature
+     000000CF  _TF2                               temperature
+     000000CF  _UEPDATX                           temperature
+     000000D0  G$P$0$0                            temperature
+     000000D0  G$PSW$0$0                          temperature
+     000000D0  _P                                 temperature
+     000000D0  _PSW                               temperature
+     000000D1  G$F1$0$0                           temperature
+     000000D1  G$FCON$0$0                         temperature
+     000000D1  _F1                                temperature
+     000000D1  _FCON                              temperature
+     000000D2  G$EECON$0$0                        temperature
+     000000D2  G$OV$0$0                           temperature
+     000000D2  _EECON                             temperature
+     000000D2  _OV                                temperature
+     000000D3  G$RS0$0$0                          temperature
+     000000D3  _RS0                               temperature
+     000000D4  G$RS1$0$0                          temperature
+     000000D4  G$UEPCONX$0$0                      temperature
+     000000D4  _RS1                               temperature
+     000000D4  _UEPCONX                           temperature
+     000000D5  G$F0$0$0                           temperature
+     000000D5  G$UEPRST$0$0                       temperature
+     000000D5  _F0                                temperature
+     000000D5  _UEPRST                            temperature
+     000000D6  G$AC$0$0                           temperature
+     000000D6  _AC                                temperature
+     000000D7  G$CY$0$0                           temperature
+     000000D7  _CY                                temperature
+     000000D8  G$CCF0$0$0                         temperature
+     000000D8  G$CCON$0$0                         temperature
+     000000D8  _CCF0                              temperature
+     000000D8  _CCON                              temperature
+     000000D9  G$CCF1$0$0                         temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D9  G$CMOD$0$0                         temperature
+     000000D9  _CCF1                              temperature
+     000000D9  _CMOD                              temperature
+     000000DA  G$CCAPM0$0$0                       temperature
+     000000DA  G$CCF2$0$0                         temperature
+     000000DA  _CCAPM0                            temperature
+     000000DA  _CCF2                              temperature
+     000000DB  G$CCAPM1$0$0                       temperature
+     000000DB  G$CCF3$0$0                         temperature
+     000000DB  _CCAPM1                            temperature
+     000000DB  _CCF3                              temperature
+     000000DC  G$CCAPM2$0$0                       temperature
+     000000DC  G$CCF4$0$0                         temperature
+     000000DC  _CCAPM2                            temperature
+     000000DC  _CCF4                              temperature
+     000000DD  G$CCAPM3$0$0                       temperature
+     000000DD  _CCAPM3                            temperature
+     000000DE  G$CCAPM4$0$0                       temperature
+     000000DE  G$CR$0$0                           temperature
+     000000DE  _CCAPM4                            temperature
+     000000DE  _CR                                temperature
+     000000DF  G$CF$0$0                           temperature
+     000000DF  _CF                                temperature
+     000000E0  G$ACC$0$0                          temperature
+     000000E0  _ACC                               temperature
+     000000E2  G$UBYCTLX$0$0                      temperature
+     000000E2  _UBYCTLX                           temperature
+     000000E3  G$UBYCTHX$0$0                      temperature
+     000000E3  _UBYCTHX                           temperature
+     000000E9  G$CL$0$0                           temperature
+     000000E9  _CL                                temperature
+     000000EA  G$CCAP0L$0$0                       temperature
+     000000EA  _CCAP0L                            temperature
+     000000EB  G$CCAP1L$0$0                       temperature
+     000000EB  _CCAP1L                            temperature
+     000000EC  G$CCAP2L$0$0                       temperature
+     000000EC  _CCAP2L                            temperature
+     000000ED  G$CCAP3L$0$0                       temperature
+     000000ED  _CCAP3L                            temperature
+     000000EE  G$CCAP4L$0$0                       temperature
+     000000EE  _CCAP4L                            temperature
+     000000F0  G$B$0$0                            temperature
+     000000F0  _B                                 temperature
+     000000F1  G$LEDCON$0$0                       temperature
+     000000F1  _LEDCON                            temperature
+     000000F5  _B_5                               _gptrget
+     000000F6  _B_6                               _gptrget
+     000000F7  _B_7                               _gptrget
+     000000F8  G$EP0INT$0$0                       temperature
+     000000F8  G$UEPINT$0$0                       temperature
+     000000F8  _EP0INT                            temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F8  _UEPINT                            temperature
+     000000F9  G$CH$0$0                           temperature
+     000000F9  G$EP1INT$0$0                       temperature
+     000000F9  _CH                                temperature
+     000000F9  _EP1INT                            temperature
+     000000FA  G$CCAP0H$0$0                       temperature
+     000000FA  G$EP2INT$0$0                       temperature
+     000000FA  _CCAP0H                            temperature
+     000000FA  _EP2INT                            temperature
+     000000FB  G$CCAP1H$0$0                       temperature
+     000000FB  G$EP3INT$0$0                       temperature
+     000000FB  _CCAP1H                            temperature
+     000000FB  _EP3INT                            temperature
+     000000FC  G$CCAP2H$0$0                       temperature
+     000000FC  G$EP4INT$0$0                       temperature
+     000000FC  _CCAP2H                            temperature
+     000000FC  _EP4INT                            temperature
+     000000FD  G$CCAP3H$0$0                       temperature
+     000000FD  G$EP5INT$0$0                       temperature
+     000000FD  _CCAP3H                            temperature
+     000000FD  _EP5INT                            temperature
+     000000FE  G$CCAP4H$0$0                       temperature
+     000000FE  G$EP6INT$0$0                       temperature
+     000000FE  _CCAP4H                            temperature
+     000000FE  _EP6INT                            temperature
+     00008C8A  G$TMR0$0$0                         temperature
+     00008C8A  _TMR0                              temperature
+     00008D8B  G$TMR1$0$0                         temperature
+     00008D8B  _TMR1                              temperature
+     0000BBBA  G$UFNUM$0$0                        temperature
+     0000BBBA  _UFNUM                             temperature
+     0000CBCA  G$RCAP2$0$0                        temperature
+     0000CBCA  _RCAP2                             temperature
+     0000CDCC  G$TMR2$0$0                         temperature
+     0000CDCC  _TMR2                              temperature
+     0000E3E2  G$UBYCTX$0$0                       temperature
+     0000E3E2  _UBYCTX                            temperature
+     0000F9E9  G$PCA$0$0                          temperature
+     0000F9E9  _PCA                               temperature
+     0000FAEA  G$CCAP0$0$0                        temperature
+     0000FAEA  _CCAP0                             temperature
+     0000FBEB  G$CCAP1$0$0                        temperature
+     0000FBEB  _CCAP1                             temperature
+     0000FCEC  G$CCAP2$0$0                        temperature
+     0000FCEC  _CCAP2                             temperature
+     0000FDED  G$CCAP3$0$0                        temperature
+     0000FDED  _CCAP3                             temperature
+     0000FEEE  G$CCAP4$0$0                        temperature
+     0000FEEE  _CCAP4                             temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000077 =         119. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  G$adcVal$0$0                       temperature
+     00000008  _adcVal                            temperature
+     0000000A  G$avgVal$0$0                       temperature
+     0000000A  _avgVal                            temperature
+     0000000C  G$serial_data$0$0                  temperature
+     0000000C  _serial_data                       temperature
+     0000000D  G$data_save_high$0$0               temperature
+     0000000D  _data_save_high                    temperature
+     0000000E  G$data_save_low$0$0                temperature
+     0000000E  _data_save_low                     temperature
+     0000000F  G$i$0$0                            temperature
+     0000000F  _i                                 temperature
+     00000010  G$voltage$0$0                      temperature
+     00000010  _voltage                           temperature
+     00000014  Ltemperature.LCD_StringWrite$len   temperature
+     00000014  _LCD_StringWrite_PARM_2            temperature
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000015    00000002 =           2. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000015  __divsint_PARM_2                   _divuint
+     00000015  __divuint_PARM_2                   _divuint
+     00000015  __modsint_PARM_2                   _moduint
+     00000015  __moduint_PARM_2                   _moduint
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000021    0000005F =          95. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000021  __start__stack                     temperature
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000051 =          81. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$temperature$736                  temperature
+C:   00000003  A$temperature$737                  temperature
+C:   0000000B  A$temperature$739                  temperature
+C:   00000013  A$temperature$741                  temperature
+C:   0000001B  A$temperature$743                  temperature
+C:   00000023  A$temperature$745                  temperature
+C:   0000002B  A$temperature$747                  temperature
+C:   00000033  A$temperature$749                  temperature
+C:   0000003B  A$temperature$751                  temperature
+C:   00000043  A$temperature$753                  temperature
+C:   0000004B  A$temperature$755                  temperature
+C:   0000004E  A$temperature$796                  temperature
+C:   0000004E  __sdcc_program_startup             temperature
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000051    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000051  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000054    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             0000005E    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000005E  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000080    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000080  __mcs51_genRAMCLEAR                
+C:   00000086  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              000000AA    0000000F =          15. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000AA  A$temperature$771                  temperature
+C:   000000AB  A$temperature$772                  temperature
+C:   000000AD  A$temperature$773                  temperature
+C:   000000AF  A$temperature$776                  temperature
+C:   000000AF  C$temperature.c$24$1$42            temperature
+C:   000000B1  A$temperature$777                  temperature
+C:   000000B3  A$temperature$781                  temperature
+C:   000000B3  C$temperature.c$28$1$42            temperature
+C:   000000B5  A$temperature$784                  temperature
+C:   000000B5  C$temperature.c$21$1$42            temperature
+C:   000000B7  A$temperature$787                  temperature
+C:   000000B7  C$temperature.c$22$1$42            temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000000B9    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B9  A$temperature$789                  temperature
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000BC  A$temperature$822                  temperature
+C:   000000BC  C$temperature.c$38$0$0             temperature
+C:   000000BC  C$temperature.c$40$1$20            temperature
+C:   000000BC  G$main$0$0                         temperature
+C:   000000BC  _main                              temperature
+C:   000000BF  A$temperature$825                  temperature
+C:   000000BF  C$temperature.c$41$1$20            temperature
+C:   000000C2  A$temperature$828                  temperature
+C:   000000C2  C$temperature.c$42$1$20            temperature
+C:   000000C5  A$temperature$831                  temperature
+C:   000000C5  C$temperature.c$44$1$20            temperature
+C:   000000C8  A$temperature$834                  temperature
+C:   000000C8  C$temperature.c$45$1$20            temperature
+C:   000000CB  A$temperature$837                  temperature
+C:   000000CB  C$temperature.c$46$1$20            temperature
+C:   000000CE  A$temperature$840                  temperature
+C:   000000CE  C$temperature.c$47$1$20            temperature
+C:   000000D1  A$temperature$841                  temperature
+C:   000000D4  A$temperature$842                  temperature
+C:   000000D7  A$temperature$843                  temperature
+C:   000000DA  A$temperature$847                  temperature
+C:   000000DA  C$temperature.c$51$2$21            temperature
+C:   000000DD  A$temperature$850                  temperature
+C:   000000E0  A$temperature$851                  temperature
+C:   000000E2  A$temperature$855                  temperature
+C:   000000E2  C$temperature.c$57$4$23            temperature
+C:   000000E4  A$temperature$858                  temperature
+C:   000000E4  C$temperature.c$58$4$23            temperature
+C:   000000E7  A$temperature$864                  temperature
+C:   000000E7  C$temperature.c$59$4$23            temperature
+C:   000000E7  C$temperature.c$60$4$23            temperature
+C:   000000EA  A$temperature$865                  temperature
+C:   000000EC  A$temperature$869                  temperature
+C:   000000EC  C$temperature.c$61$4$23            temperature
+C:   000000EF  A$temperature$873                  temperature
+C:   000000EF  C$temperature.c$62$4$23            temperature
+C:   000000F2  A$temperature$876                  temperature
+C:   000000F2  C$temperature.c$63$4$23            temperature
+C:   000000F4  A$temperature$877                  temperature
+C:   000000F6  A$temperature$878                  temperature
+C:   000000F8  A$temperature$881                  temperature
+C:   000000F8  C$temperature.c$64$4$23            temperature
+C:   000000FA  A$temperature$884                  temperature
+C:   000000FA  C$temperature.c$66$4$23            temperature
+C:   000000FD  A$temperature$888                  temperature
+C:   000000FD  C$temperature.c$67$4$23            temperature
+C:   00000100  A$temperature$891                  temperature
+C:   00000100  C$temperature.c$68$4$23            temperature
+C:   00000103  A$temperature$894                  temperature
+C:   00000103  C$temperature.c$69$4$23            temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000105  A$temperature$897                  temperature
+C:   00000105  C$temperature.c$70$4$23            temperature
+C:   00000107  A$temperature$900                  temperature
+C:   00000107  C$temperature.c$72$4$23            temperature
+C:   00000109  A$temperature$901                  temperature
+C:   0000010B  A$temperature$902                  temperature
+C:   0000010D  A$temperature$903                  temperature
+C:   0000010F  A$temperature$904                  temperature
+C:   00000110  A$temperature$905                  temperature
+C:   00000111  A$temperature$906                  temperature
+C:   00000113  A$temperature$907                  temperature
+C:   00000114  A$temperature$908                  temperature
+C:   00000115  A$temperature$909                  temperature
+C:   00000117  A$temperature$912                  temperature
+C:   00000117  C$temperature.c$73$4$23            temperature
+C:   00000119  A$temperature$913                  temperature
+C:   0000011B  A$temperature$914                  temperature
+C:   0000011D  A$temperature$915                  temperature
+C:   0000011F  A$temperature$916                  temperature
+C:   00000121  A$temperature$917                  temperature
+C:   00000123  A$temperature$920                  temperature
+C:   00000123  C$temperature.c$55$3$22            temperature
+C:   00000125  A$temperature$921                  temperature
+C:   00000127  A$temperature$922                  temperature
+C:   00000129  A$temperature$923                  temperature
+C:   0000012B  A$temperature$926                  temperature
+C:   0000012B  C$temperature.c$76$1$20            temperature
+C:   0000012E  A$temperature$927                  temperature
+C:   00000131  A$temperature$928                  temperature
+C:   00000134  A$temperature$929                  temperature
+C:   00000136  A$temperature$930                  temperature
+C:   00000138  A$temperature$931                  temperature
+C:   0000013A  A$temperature$932                  temperature
+C:   0000013B  A$temperature$933                  temperature
+C:   0000013C  A$temperature$934                  temperature
+C:   0000013E  A$temperature$935                  temperature
+C:   00000140  A$temperature$936                  temperature
+C:   00000142  A$temperature$937                  temperature
+C:   00000144  A$temperature$938                  temperature
+C:   00000146  A$temperature$939                  temperature
+C:   00000148  A$temperature$940                  temperature
+C:   0000014A  A$temperature$941                  temperature
+C:   0000014C  A$temperature$942                  temperature
+C:   0000014E  A$temperature$943                  temperature
+C:   0000014F  A$temperature$944                  temperature
+C:   00000152  A$temperature$945                  temperature
+C:   00000154  A$temperature$946                  temperature
+C:   00000156  A$temperature$947                  temperature
+C:   00000158  A$temperature$948                  temperature
+C:   00000159  A$temperature$949                  temperature
+C:   0000015B  A$temperature$950                  temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000015D  A$temperature$951                  temperature
+C:   0000015F  A$temperature$952                  temperature
+C:   00000161  A$temperature$953                  temperature
+C:   00000163  A$temperature$954                  temperature
+C:   00000165  A$temperature$955                  temperature
+C:   00000166  A$temperature$956                  temperature
+C:   00000169  A$temperature$959                  temperature
+C:   00000169  C$temperature.c$77$1$20            temperature
+C:   0000016C  A$temperature$960                  temperature
+C:   0000016F  A$temperature$961                  temperature
+C:   00000172  A$temperature$962                  temperature
+C:   00000175  A$temperature$963                  temperature
+C:   00000177  A$temperature$964                  temperature
+C:   00000179  A$temperature$965                  temperature
+C:   0000017B  A$temperature$966                  temperature
+C:   0000017C  A$temperature$967                  temperature
+C:   0000017E  A$temperature$968                  temperature
+C:   00000180  A$temperature$969                  temperature
+C:   00000182  A$temperature$970                  temperature
+C:   00000184  A$temperature$971                  temperature
+C:   00000187  A$temperature$972                  temperature
+C:   0000018A  A$temperature$973                  temperature
+C:   0000018C  A$temperature$974                  temperature
+C:   0000018F  A$temperature$975                  temperature
+C:   00000191  A$temperature$976                  temperature
+C:   00000193  A$temperature$977                  temperature
+C:   00000195  A$temperature$978                  temperature
+C:   00000196  A$temperature$979                  temperature
+C:   00000198  A$temperature$980                  temperature
+C:   0000019A  A$temperature$981                  temperature
+C:   0000019C  A$temperature$982                  temperature
+C:   0000019E  A$temperature$983                  temperature
+C:   000001A0  A$temperature$984                  temperature
+C:   000001A2  A$temperature$985                  temperature
+C:   000001A3  A$temperature$986                  temperature
+C:   000001A6  A$temperature$987                  temperature
+C:   000001A9  A$temperature$988                  temperature
+C:   000001AC  A$temperature$991                  temperature
+C:   000001AC  C$temperature.c$78$3$22            temperature
+C:   000001AF  A$temperature$992                  temperature
+C:   000001B2  A$temperature$995                  temperature
+C:   000001B2  C$temperature.c$79$3$22            temperature
+C:   000001B5  A$temperature$996                  temperature
+C:   000001B8  A$temperature$997                  temperature
+C:   000001BB  A$temperature$998                  temperature
+C:   000001BE  A$temperature$999                  temperature
+C:   000001C1  A$temperature$1000                 temperature
+C:   000001C3  A$temperature$1001                 temperature
+C:   000001C5  A$temperature$1002                 temperature
+C:   000001C6  A$temperature$1003                 temperature
+C:   000001C8  A$temperature$1006                 temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001C8  C$temperature.c$80$1$20            temperature
+C:   000001CB  A$temperature$1007                 temperature
+C:   000001CE  A$temperature$1008                 temperature
+C:   000001D1  A$temperature$1009                 temperature
+C:   000001D4  A$temperature$1010                 temperature
+C:   000001D7  A$temperature$1013                 temperature
+C:   000001D7  C$temperature.c$81$3$22            temperature
+C:   000001DA  A$temperature$1014                 temperature
+C:   000001DD  A$temperature$1015                 temperature
+C:   000001E0  A$temperature$1016                 temperature
+C:   000001E3  A$temperature$1017                 temperature
+C:   000001E6  A$temperature$1018                 temperature
+C:   000001E8  A$temperature$1019                 temperature
+C:   000001EA  A$temperature$1020                 temperature
+C:   000001EB  A$temperature$1021                 temperature
+C:   000001ED  A$temperature$1024                 temperature
+C:   000001ED  C$temperature.c$82$1$20            temperature
+C:   000001F0  A$temperature$1025                 temperature
+C:   000001F3  A$temperature$1026                 temperature
+C:   000001F6  A$temperature$1027                 temperature
+C:   000001F9  A$temperature$1028                 temperature
+C:   000001FC  A$temperature$1031                 temperature
+C:   000001FC  C$temperature.c$83$3$22            temperature
+C:   000001FF  A$temperature$1032                 temperature
+C:   00000202  A$temperature$1033                 temperature
+C:   00000205  A$temperature$1034                 temperature
+C:   00000208  A$temperature$1035                 temperature
+C:   0000020B  A$temperature$1036                 temperature
+C:   0000020D  A$temperature$1037                 temperature
+C:   0000020F  A$temperature$1038                 temperature
+C:   00000210  A$temperature$1039                 temperature
+C:   00000212  A$temperature$1042                 temperature
+C:   00000212  C$temperature.c$84$1$20            temperature
+C:   00000215  A$temperature$1043                 temperature
+C:   00000218  A$temperature$1044                 temperature
+C:   0000021B  A$temperature$1045                 temperature
+C:   0000021E  A$temperature$1046                 temperature
+C:   00000221  A$temperature$1047                 temperature
+C:   00000224  A$temperature$1048                 temperature
+C:   00000227  A$temperature$1051                 temperature
+C:   00000227  C$temperature.c$85$3$22            temperature
+C:   0000022A  A$temperature$1054                 temperature
+C:   0000022A  C$temperature.c$86$3$22            temperature
+C:   0000022D  A$temperature$1055                 temperature
+C:   00000230  A$temperature$1056                 temperature
+C:   00000233  A$temperature$1057                 temperature
+C:   00000236  A$temperature$1058                 temperature
+C:   00000239  A$temperature$1061                 temperature
+C:   00000239  C$temperature.c$90$1$20            temperature
+C:   00000239  XG$main$0$0                        temperature
+C:   0000023A  A$temperature$1072                 temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000023A  C$temperature.c$97$1$20            temperature
+C:   0000023A  G$it_SPI$0$0                       temperature
+C:   0000023A  _it_SPI                            temperature
+C:   0000023C  A$temperature$1073                 temperature
+C:   0000023E  A$temperature$1074                 temperature
+C:   00000241  A$temperature$1077                 temperature
+C:   00000241  C$temperature.c$99$1$25            temperature
+C:   00000243  A$temperature$1078                 temperature
+C:   00000246  A$temperature$1079                 temperature
+C:   00000248  A$temperature$1081                 temperature
+C:   0000024B  A$temperature$1082                 temperature
+C:   0000024D  A$temperature$1084                 temperature
+C:   00000250  A$temperature$1087                 temperature
+C:   00000250  C$temperature.c$102$2$26           temperature
+C:   00000253  A$temperature$1090                 temperature
+C:   00000253  C$temperature.c$103$2$26           temperature
+C:   00000255  A$temperature$1094                 temperature
+C:   00000255  C$temperature.c$113$1$25           temperature
+C:   00000257  A$temperature$1095                 temperature
+C:   00000259  A$temperature$1098                 temperature
+C:   00000259  C$temperature.c$114$1$25           temperature
+C:   00000259  XG$it_SPI$0$0                      temperature
+C:   0000025A  A$temperature$1115                 temperature
+C:   0000025A  C$temperature.c$116$1$25           temperature
+C:   0000025A  C$temperature.c$118$1$28           temperature
+C:   0000025A  G$timer0_ISR$0$0                   temperature
+C:   0000025A  _timer0_ISR                        temperature
+C:   0000025D  A$temperature$1118                 temperature
+C:   0000025D  C$temperature.c$119$1$28           temperature
+C:   00000260  A$temperature$1121                 temperature
+C:   00000260  C$temperature.c$120$1$28           temperature
+C:   00000262  A$temperature$1124                 temperature
+C:   00000262  C$temperature.c$121$1$28           temperature
+C:   00000262  XG$timer0_ISR$0$0                  temperature
+C:   00000263  A$temperature$1143                 temperature
+C:   00000263  C$temperature.c$130$1$28           temperature
+C:   00000263  C$temperature.c$132$1$29           temperature
+C:   00000263  G$SPI_Init$0$0                     temperature
+C:   00000263  _SPI_Init                          temperature
+C:   00000265  A$temperature$1146                 temperature
+C:   00000265  C$temperature.c$133$1$29           temperature
+C:   00000268  A$temperature$1149                 temperature
+C:   00000268  C$temperature.c$134$1$29           temperature
+C:   0000026B  A$temperature$1152                 temperature
+C:   0000026B  C$temperature.c$135$1$29           temperature
+C:   0000026E  A$temperature$1155                 temperature
+C:   0000026E  C$temperature.c$136$1$29           temperature
+C:   00000270  A$temperature$1156                 temperature
+C:   00000272  A$temperature$1157                 temperature
+C:   00000273  A$temperature$1158                 temperature
+C:   00000275  A$temperature$1161                 temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000275  C$temperature.c$137$1$29           temperature
+C:   00000278  A$temperature$1164                 temperature
+C:   00000278  C$temperature.c$138$1$29           temperature
+C:   0000027B  A$temperature$1167                 temperature
+C:   0000027B  C$temperature.c$139$1$29           temperature
+C:   0000027E  A$temperature$1170                 temperature
+C:   0000027E  C$temperature.c$140$1$29           temperature
+C:   00000280  A$temperature$1173                 temperature
+C:   00000280  C$temperature.c$141$1$29           temperature
+C:   00000280  XG$SPI_Init$0$0                    temperature
+C:   00000281  A$temperature$1186                 temperature
+C:   00000281  C$temperature.c$148$1$29           temperature
+C:   00000281  C$temperature.c$155$1$30           temperature
+C:   00000281  G$Timer_Init$0$0                   temperature
+C:   00000281  _Timer_Init                        temperature
+C:   00000284  A$temperature$1189                 temperature
+C:   00000284  C$temperature.c$156$1$30           temperature
+C:   00000287  A$temperature$1192                 temperature
+C:   00000287  C$temperature.c$157$1$30           temperature
+C:   00000289  A$temperature$1193                 temperature
+C:   0000028B  A$temperature$1194                 temperature
+C:   0000028D  A$temperature$1195                 temperature
+C:   0000028F  A$temperature$1198                 temperature
+C:   0000028F  C$temperature.c$158$1$30           temperature
+C:   00000291  A$temperature$1201                 temperature
+C:   00000291  C$temperature.c$159$1$30           temperature
+C:   00000293  A$temperature$1204                 temperature
+C:   00000293  C$temperature.c$160$1$30           temperature
+C:   00000293  XG$Timer_Init$0$0                  temperature
+C:   00000294  A$temperature$1217                 temperature
+C:   00000294  C$temperature.c$166$1$30           temperature
+C:   00000294  C$temperature.c$168$1$31           temperature
+C:   00000294  G$LCD_Init$0$0                     temperature
+C:   00000294  _LCD_Init                          temperature
+C:   00000297  A$temperature$1218                 temperature
+C:   0000029A  A$temperature$1221                 temperature
+C:   0000029A  C$temperature.c$169$1$31           temperature
+C:   0000029D  A$temperature$1222                 temperature
+C:   000002A0  A$temperature$1225                 temperature
+C:   000002A0  C$temperature.c$170$1$31           temperature
+C:   000002A3  A$temperature$1226                 temperature
+C:   000002A6  A$temperature$1229                 temperature
+C:   000002A6  C$temperature.c$171$1$31           temperature
+C:   000002A9  A$temperature$1230                 temperature
+C:   000002AC  A$temperature$1233                 temperature
+C:   000002AC  C$temperature.c$172$1$31           temperature
+C:   000002AF  A$temperature$1234                 temperature
+C:   000002B2  A$temperature$1237                 temperature
+C:   000002B2  C$temperature.c$173$1$31           temperature
+C:   000002B2  XG$LCD_Init$0$0                    temperature
+C:   000002B3  A$temperature$1250                 temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002B3  C$temperature.c$180$1$31           temperature
+C:   000002B3  G$LCD_CmdWrite$0$0                 temperature
+C:   000002B3  _LCD_CmdWrite                      temperature
+C:   000002B5  A$temperature$1253                 temperature
+C:   000002B5  C$temperature.c$182$1$33           temperature
+C:   000002B7  A$temperature$1254                 temperature
+C:   000002BA  A$temperature$1255                 temperature
+C:   000002BC  A$temperature$1258                 temperature
+C:   000002BC  C$temperature.c$183$1$33           temperature
+C:   000002BE  A$temperature$1261                 temperature
+C:   000002BE  C$temperature.c$184$1$33           temperature
+C:   000002C0  A$temperature$1264                 temperature
+C:   000002C0  C$temperature.c$185$1$33           temperature
+C:   000002C2  A$temperature$1267                 temperature
+C:   000002C2  C$temperature.c$186$1$33           temperature
+C:   000002C4  A$temperature$1270                 temperature
+C:   000002C4  C$temperature.c$187$1$33           temperature
+C:   000002C7  A$temperature$1271                 temperature
+C:   000002CA  A$temperature$1274                 temperature
+C:   000002CA  C$temperature.c$188$1$33           temperature
+C:   000002CC  A$temperature$1277                 temperature
+C:   000002CC  C$temperature.c$189$1$33           temperature
+C:   000002CF  A$temperature$1278                 temperature
+C:   000002D2  A$temperature$1281                 temperature
+C:   000002D2  C$temperature.c$190$1$33           temperature
+C:   000002D2  XG$LCD_CmdWrite$0$0                temperature
+C:   000002D3  A$temperature$1294                 temperature
+C:   000002D3  C$temperature.c$197$1$33           temperature
+C:   000002D3  G$LCD_DataWrite$0$0                temperature
+C:   000002D3  _LCD_DataWrite                     temperature
+C:   000002D6  A$temperature$1297                 temperature
+C:   000002D6  C$temperature.c$200$1$35           temperature
+C:   000002D8  A$temperature$1300                 temperature
+C:   000002D8  C$temperature.c$201$1$35           temperature
+C:   000002DA  A$temperature$1303                 temperature
+C:   000002DA  C$temperature.c$202$1$35           temperature
+C:   000002DC  A$temperature$1306                 temperature
+C:   000002DC  C$temperature.c$203$1$35           temperature
+C:   000002DF  A$temperature$1307                 temperature
+C:   000002E2  A$temperature$1310                 temperature
+C:   000002E2  C$temperature.c$204$1$35           temperature
+C:   000002E4  A$temperature$1313                 temperature
+C:   000002E4  C$temperature.c$205$1$35           temperature
+C:   000002E7  A$temperature$1314                 temperature
+C:   000002EA  A$temperature$1317                 temperature
+C:   000002EA  C$temperature.c$206$1$35           temperature
+C:   000002EA  XG$LCD_DataWrite$0$0               temperature
+C:   000002EB  A$temperature$1331                 temperature
+C:   000002EB  C$temperature.c$212$1$35           temperature
+C:   000002EB  G$LCD_StringWrite$0$0              temperature
+C:   000002EB  _LCD_StringWrite                   temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002ED  A$temperature$1332                 temperature
+C:   000002EF  A$temperature$1333                 temperature
+C:   000002F1  A$temperature$1337                 temperature
+C:   000002F1  C$temperature.c$214$1$37           temperature
+C:   000002F3  A$temperature$1338                 temperature
+C:   000002F5  A$temperature$1341                 temperature
+C:   000002F5  C$temperature.c$216$2$38           temperature
+C:   000002F7  A$temperature$1342                 temperature
+C:   000002F9  A$temperature$1343                 temperature
+C:   000002FB  A$temperature$1344                 temperature
+C:   000002FE  A$temperature$1345                 temperature
+C:   000002FF  A$temperature$1346                 temperature
+C:   00000300  A$temperature$1347                 temperature
+C:   00000302  A$temperature$1348                 temperature
+C:   00000304  A$temperature$1349                 temperature
+C:   00000306  A$temperature$1350                 temperature
+C:   00000308  A$temperature$1351                 temperature
+C:   0000030A  A$temperature$1352                 temperature
+C:   0000030C  A$temperature$1353                 temperature
+C:   0000030F  A$temperature$1354                 temperature
+C:   00000311  A$temperature$1355                 temperature
+C:   00000313  A$temperature$1356                 temperature
+C:   00000315  A$temperature$1361                 temperature
+C:   00000315  C$temperature.c$217$2$38           temperature
+C:   00000315  C$temperature.c$218$2$38           temperature
+C:   00000317  A$temperature$1362                 temperature
+C:   00000319  A$temperature$1366                 temperature
+C:   00000319  C$temperature.c$220$1$37           temperature
+C:   00000319  XG$LCD_StringWrite$0$0             temperature
+C:   0000031A  A$temperature$1379                 temperature
+C:   0000031A  C$temperature.c$227$1$37           temperature
+C:   0000031A  C$temperature.c$229$1$39           temperature
+C:   0000031A  G$LCD_Ready$0$0                    temperature
+C:   0000031A  _LCD_Ready                         temperature
+C:   0000031D  A$temperature$1382                 temperature
+C:   0000031D  C$temperature.c$230$1$39           temperature
+C:   0000031F  A$temperature$1385                 temperature
+C:   0000031F  C$temperature.c$231$1$39           temperature
+C:   00000321  A$temperature$1388                 temperature
+C:   00000321  C$temperature.c$232$1$39           temperature
+C:   00000323  A$temperature$1391                 temperature
+C:   00000323  C$temperature.c$233$1$39           temperature
+C:   00000326  A$temperature$1392                 temperature
+C:   00000329  A$temperature$1395                 temperature
+C:   00000329  C$temperature.c$234$1$39           temperature
+C:   0000032B  A$temperature$1399                 temperature
+C:   0000032B  C$temperature.c$235$1$39           temperature
+C:   0000032E  A$temperature$1402                 temperature
+C:   0000032E  C$temperature.c$237$2$40           temperature
+C:   00000330  A$temperature$1405                 temperature
+C:   00000330  C$temperature.c$238$2$40           temperature
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000332  A$temperature$1406                 temperature
+C:   00000334  A$temperature$1410                 temperature
+C:   00000334  C$temperature.c$240$1$39           temperature
+C:   00000336  A$temperature$1413                 temperature
+C:   00000336  C$temperature.c$241$1$39           temperature
+C:   00000336  XG$LCD_Ready$0$0                   temperature
+C:   00000337  A$temperature$1427                 temperature
+C:   00000337  C$temperature.c$248$1$39           temperature
+C:   00000337  G$sdelay$0$0                       temperature
+C:   00000337  _sdelay                            temperature
+C:   00000339  A$temperature$1428                 temperature
+C:   0000033B  A$temperature$1432                 temperature
+C:   0000033B  C$temperature.c$251$1$42           temperature
+C:   0000033C  A$temperature$1433                 temperature
+C:   0000033D  A$temperature$1434                 temperature
+C:   0000033E  A$temperature$1435                 temperature
+C:   00000340  A$temperature$1436                 temperature
+C:   00000342  A$temperature$1437                 temperature
+C:   00000345  A$temperature$1438                 temperature
+C:   00000347  A$temperature$1439                 temperature
+C:   00000349  A$temperature$1442                 temperature
+C:   00000349  C$temperature.c$253$2$43           temperature
+C:   0000034B  A$temperature$1444                 temperature
+C:   0000034C  A$temperature$1445                 temperature
+C:   0000034D  A$temperature$1446                 temperature
+C:   0000034E  A$temperature$1447                 temperature
+C:   0000034F  A$temperature$1448                 temperature
+C:   00000351  A$temperature$1451                 temperature
+C:   00000351  C$temperature.c$254$2$43           temperature
+C:   00000352  A$temperature$1452                 temperature
+C:   00000355  A$temperature$1453                 temperature
+C:   00000356  A$temperature$1455                 temperature
+C:   00000358  A$temperature$1459                 temperature
+C:   00000358  C$temperature.c$256$1$42           temperature
+C:   00000358  XG$sdelay$0$0                      temperature
+C:   00000359  ___fsmul                           _fsmul
+C:   000003FC  fsgetargs                          _fsget2args
+C:   0000042A  fs_normalize_a                     _fsnormalize
+C:   0000045D  __moduint                          _moduint
+C:   000004AA  __divuint                          _divuint
+C:   000004D3  ___sint2fs                         _sint2fs
+C:   000004E0  ___fs2sint                         _fs2sint
+C:   00000514  fs_round_and_return                _fsreturnval
+C:   0000052C  fs_zerocheck_return                _fsreturnval
+C:   00000535  fs_return_zero                     _fsreturnval
+C:   0000053D  fs_direct_return                   _fsreturnval
+C:   0000054B  fs_return_inf                      _fsreturnval
+C:   00000558  fs_return_nan                      _fsreturnval
+C:   00000563  ___fsdiv                           _fsdiv
+C:   00000626  __gptrget                          _gptrget
+C:   00000642  __modsint                          _modsint
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000BC    000006D5 =        1749. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000678  ___slong2fs                        _slong2fs
+C:   00000681  slong2fs_doit                      _slong2fs
+C:   000006A5  __divsint                          _divsint
+C:   000006DD  ___fs2slong                        _fs2slong
+C:   00000738  __sdcc_external_startup            _startup
+C:   0000073C  fsgetarg                           _fsget1arg
+C:   0000074E  fs_rshift_a                        _fsrshift
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00000791    00000010 =          16. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000791  Ftemperature$__str_0$0$0           temperature
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+
+Files Linked                              [ module(s) ]
+
+temperature.rel                           [  ]
+
+
+Libraries Linked                          [ object file ]
+
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsmul.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsget2args.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtclear.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsnormalize.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtxinit.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _moduint.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtxclear.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _divuint.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _sint2fs.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fs2sint.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsreturnval.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtpagesfr.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsdiv.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtstart.rel ]
+/usr/bin/../share/sdcc/lib/small/libsdcc.lib
+                                          [ _gptrget.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _modsint.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _slong2fs.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _divsint.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fs2slong.rel ]
+/usr/bin/../share/sdcc/lib/small/libsdcc.lib
+                                          [ _startup.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsget1arg.rel ]
+/usr/bin/../share/sdcc/lib/small/libfloat.lib
+                                          [ _fsrshift.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+

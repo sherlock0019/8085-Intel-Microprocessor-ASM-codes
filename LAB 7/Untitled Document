@@ -1,0 +1,39 @@
+
+ORG 0000H
+ljmp start
+
+org 200h
+start:
+	mov p2, #00h
+	acall delay
+	acall delay
+	acall lcd_init
+	acall delay
+	acall delay
+	acall delay
+	mov a, #08Fh
+	acall lcd_command
+	acall delay
+	acall lcd_senddata
+	acall delay
+	
+here: sjmp here
+
+;delay routine
+
+delay: 
+	mov r0, #10
+	loop2: mov r1, #255
+		loop1: djnz r1, loop1
+		djnz r0, loop2
+		ret
+
+;lcd initlalization routine
+
+lcd_init:
+	mov A, #38H
+	acall lcd_command
+
+	mov A, #0Ch
+	
+
